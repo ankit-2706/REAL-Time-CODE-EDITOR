@@ -12,10 +12,10 @@ const Home = () => {
 
     const createNewRoom = (e) => {
         e.preventDefault();
-        //generate unique id
+      
         const id = uuidV4();
         setRoomId(id);
-        // console.log(id);
+        
         toast.success('Created a new room ✨')
     };
 
@@ -82,8 +82,6 @@ const Home = () => {
                   <a href='https://github.com/ankit-2706'>Ankit Chouhan</a>
               </h4>    
           </footer>
-          
-
     </div>
   )
 }
